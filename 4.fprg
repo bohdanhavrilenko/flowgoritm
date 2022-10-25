@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bohdan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 11:18:52 "/>
+        <attribute name="created" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIwOTo1NToxOCAiOzI4ODM="/>
+        <attribute name="edited" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIxMToxODo1MiAiOzQ7Mjk4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, m, i, x, k" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <input variable="m"/>
+            <assign variable="k" expression="0"/>
+            <for variable="i" start="1" end="4" direction="inc" step="1">
+                <output expression="&quot;miesiac &quot;" newline="False"/>
+                <output expression="i" newline="True"/>
+                <output expression="&quot;zuzytych &quot;" newline="False"/>
+                <input variable="x"/>
+                <output expression="x" newline="True"/>
+                <output expression="&quot;dostepnych &quot;" newline="False"/>
+                <assign variable="k" expression="n-x+k"/>
+                <output expression="k" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

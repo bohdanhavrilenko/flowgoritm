@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bohdan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 01:28:23 "/>
+        <attribute name="created" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIwOTo1NToxOCAiOzI4ODM="/>
+        <attribute name="edited" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIwMToyODoyMyAiOzM7Mjk4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, a, i, sum" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="sum" expression="0"/>
+            <assign variable="sum" expression="n%10"/>
+            <assign variable="a" expression="n/10"/>
+            <assign variable="i" expression="n/100"/>
+            <output expression="sum + i+ a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

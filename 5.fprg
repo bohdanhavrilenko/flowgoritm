@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bohdan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-25 11:40:03 "/>
+        <attribute name="created" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIxMToyMTo0OCAiOzI4NzI="/>
+        <attribute name="edited" value="Ym9oZGFuO0RFU0tUT1AtQzhIRVRUMzsyMDIyLTEwLTI1OyIxMTo0MDowMyAiOzE7Mjk3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, s1, o, o1, a, h, n, k" type="Integer" array="False" size=""/>
+            <input variable="s"/>
+            <input variable="s1"/>
+            <for variable="h" start="1" end="s1" direction="inc" step="1">
+                <input variable="o"/>
+                <input variable="o1"/>
+                <if expression="o&lt;=3 &amp;&amp; o&gt;=-3">
+                    <then>
+                        <if expression="o1&lt;=3 &amp;&amp; o1&gt;=-3">
+                            <then>
+                                <output expression="(-3*(s-s1)+o+o1)/s" newline="True"/>
+                                <output expression="(3*(s-s1)+o+o1)/s" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;-&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <output expression="&quot;-&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
